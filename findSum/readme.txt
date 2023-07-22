@@ -1,0 +1,1 @@
+finding sum of numbers between N to X <both numbers are included>
