@@ -1,0 +1,1 @@
+find if a number is a prime or composite number
