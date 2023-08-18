@@ -12,11 +12,9 @@ func main() {
 }
 
 func linearSearch(target int, size int, array []int) int {
-	counter := 0
 	for i := 0; i < size; i++ {
-		counter++
 		if array[i] == target {
-			return counter
+			return i
 		}
 	}
 	return -1
