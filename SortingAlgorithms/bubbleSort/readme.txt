@@ -1,4 +1,4 @@
-bubble sort:
+Note:
 the expectation of a sorting algorithm is to take an unsorted array, and sort them in increasing or decreasing order.
 we’re going to compare consecutive items, if they’re out of order we’re going to swap them.
 The highest number will bubble its way to the right with each iteration.
