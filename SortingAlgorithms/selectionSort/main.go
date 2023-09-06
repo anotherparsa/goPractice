@@ -18,10 +18,10 @@ func selectionSort(arr []int, size int) {
 		for j := i + 1; j < size; j++ {
 			if arr[j] < arr[minIndex] {
 				minIndex = j
-				if minIndex != i {
-					swapping(arr, i, minIndex)
-				}
 			}
+		}
+		if minIndex != i {
+			swapping(arr, i, minIndex)
 		}
 	}
 }
